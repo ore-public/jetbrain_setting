@@ -2,6 +2,7 @@
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
+  <action id="CloseContent" />
   <action id="Debug" />
   <action id="Editor Delete">
     <keyboard-shortcut first-keystroke="ctrl d" />
@@ -15,22 +16,20 @@
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
-  <action id="EditorSelectLine">
-    <keyboard-shortcut first-keystroke="meta l" />
-  </action>
   <action id="EditorSelectWord">
-    <keyboard-shortcut first-keystroke="alt up" />
-    <keyboard-shortcut first-keystroke="ctrl w" />
+    <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="EditorUnSelectWord">
-    <keyboard-shortcut first-keystroke="alt down" />
-    <keyboard-shortcut first-keystroke="shift ctrl w" />
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta a" />
+    <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
-  <action id="GotoLine" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
@@ -47,7 +46,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="TypeHierarchy" />
-  <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ShowMessageHistory" />
   <action id="Vcs.UpdateProject" />
 </keymap>
